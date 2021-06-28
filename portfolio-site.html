@@ -53,16 +53,33 @@
                     < !<blue1>DOCTYPE</blue1> <blue2>another section</blue2>> <br>
                     <p>
                     Currently, I am employed with Connecticut Natural Gas as a Customer Service
-                    Representative. I plan to put more information here. <br>Lorem ipsum 
-                    dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim 
-                    ad minim veniam, quis nostrud exercitation ullamco laboris 
-                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
-                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
-                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
-                    sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
+                    Representative. I plan to put more information here.
+                    <br>
                     < /<blue2>another section</blue2>>
                     <br><br><br>
+
+                    <<blue2>interactive</blue2>> <br>
+                    Whats your favorite animal?
+                    <input type="text" id="animal" /> 
+                    <br>
+                    What's your favorite food from this list?  
+                    <select id="menu">
+                        <option value="pizza" id="pizza">pizza</option>
+                        <option value="chinese" id="chinese">chinese</option>
+                        <option value="tacos" id="tacos">tacos</option>
+                        <option value="mac and cheese" id="mc">mac and cheese</option>
+                    </select> 
+
+                    <input type ="submit" onclick="sentence()" />
+                    <br>  
+                    <br>
+                    Your favorite animal is a <yellow><span id="favanimal">favorite animal goes here</span></yellow> and your favorite
+                    food is <red><span id="favfood">favorite food goes here</span></red>.
+                    <br>
+                    < /<blue2>interactive</blue2>>
+                    <script src="portfolio-site.js"></script>
+                    <br>
+                    <br>  
                     <red>Here are some photos of my cat.</red>
                     <br>
                     <yellow>His </yellow><<blue1>name</blue1>> is Dash.
